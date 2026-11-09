@@ -1,0 +1,434 @@
+/* ================================
+   PRODUCTS SECTION
+================================ */
+
+.products-section {
+  padding: 80px 0;
+  background-color: #f7f3ee;
+}
+
+
+/* ================================
+   HEADING
+================================ */
+
+.products-heading {
+  margin-bottom: 50px;
+}
+
+.section-small-title {
+  color: #a86b45;
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  margin-bottom: 8px;
+}
+
+.section-title {
+  color: #2d2926;
+  font-size: 42px;
+  font-weight: 700;
+  margin-bottom: 12px;
+}
+
+.section-description {
+  color: #77716c;
+  font-size: 15px;
+  max-width: 550px;
+  margin: auto;
+  line-height: 1.7;
+}
+
+
+/* ================================
+   PRODUCT CARD
+================================ */
+
+.product-card {
+  height: 100%;
+  background-color: #ffffff;
+  border-radius: 18px;
+  overflow: hidden;
+  border: 1px solid #eee6de;
+  transition: all 0.3s ease;
+}
+
+.product-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.12);
+}
+
+
+/* ================================
+   PRODUCT IMAGE
+================================ */
+
+.product-image-box {
+  height: 270px;
+  position: relative;
+  overflow: hidden;
+  background-color: #eee7df;
+}
+
+.product-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  transition: transform 0.5s ease;
+}
+
+.product-card:hover .product-image {
+  transform: scale(1.07);
+}
+
+
+/* ================================
+   BADGE
+================================ */
+
+.sale-badge {
+  position: absolute;
+  top: 15px;
+  left: 15px;
+
+  background-color: #a86b45;
+  color: #ffffff;
+
+  padding: 6px 12px;
+
+  border-radius: 5px;
+
+  font-size: 11px;
+  font-weight: 700;
+
+  letter-spacing: 0.5px;
+
+  z-index: 5;
+}
+
+
+/* ================================
+   HEART BUTTON
+================================ */
+
+.heart-btn {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+
+  width: 40px;
+  height: 40px;
+
+  border: none;
+  border-radius: 50%;
+
+  background-color: #ffffff;
+  color: #444444;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  cursor: pointer;
+
+  z-index: 5;
+
+  transition: all 0.3s ease;
+}
+
+.heart-btn:hover {
+  background-color: #a86b45;
+  color: #ffffff;
+  transform: scale(1.08);
+}
+
+.heart-btn i {
+  font-size: 17px;
+}
+
+
+/* ================================
+   PRODUCT INFO
+================================ */
+
+.product-info {
+  padding: 20px;
+}
+
+
+/* ================================
+   PRODUCT ID
+================================ */
+
+.product-id {
+  display: block;
+  color: #aaa;
+
+  font-size: 11px;
+  font-weight: 600;
+
+  margin-bottom: 5px;
+}
+
+
+/* ================================
+   CATEGORY
+================================ */
+
+.product-category {
+  color: #a86b45;
+
+  font-size: 12px;
+  font-weight: 600;
+
+  margin-bottom: 7px;
+}
+
+
+/* ================================
+   PRODUCT NAME
+================================ */
+
+.product-info h4 {
+  color: #2d2926;
+
+  font-size: 19px;
+  font-weight: 600;
+
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+
+
+/* ================================
+   DESCRIPTION
+================================ */
+
+.product-description {
+  color: #777;
+
+  font-size: 13px;
+  line-height: 1.6;
+
+  margin-bottom: 12px;
+
+  min-height: 42px;
+}
+
+
+/* ================================
+   COLOR
+================================ */
+
+.product-details {
+  color: #777;
+
+  font-size: 13px;
+
+  margin-bottom: 12px;
+}
+
+.product-details b {
+  color: #2d2926;
+}
+
+
+/* ================================
+   RATING
+================================ */
+
+.rating {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+
+  color: #d69b45;
+
+  font-size: 14px;
+
+  margin-bottom: 12px;
+}
+
+.rating i {
+  font-size: 13px;
+}
+
+.rating span {
+  color: #555;
+  font-weight: 600;
+}
+
+.rating small {
+  color: #999;
+  font-size: 11px;
+  margin-left: 2px;
+}
+a{
+  text-decoration: none;
+}
+
+/* ================================
+   PRICE
+================================ */
+
+.price-box {
+  display: flex;
+  align-items: center;
+
+  margin-bottom: 18px;
+}
+
+.price {
+  color: #a86b45;
+
+  font-size: 21px;
+  font-weight: 700;
+}
+
+.old-price {
+  color: #aaaaaa;
+
+  font-size: 14px;
+
+  text-decoration: line-through;
+
+  margin-left: 10px;
+}
+
+
+/* ================================
+   ADD TO CART
+================================ */
+
+.add-btn {
+  width: 100%;
+
+  padding: 11px 15px;
+
+  background-color: transparent;
+
+  border: 1px solid #a86b45;
+
+  border-radius: 7px;
+
+  color: #a86b45;
+
+  font-size: 14px;
+  font-weight: 600;
+
+  cursor: pointer;
+
+  transition: all 0.3s ease;
+}
+
+.add-btn:hover {
+  background-color: #a86b45;
+  color: #ffffff;
+}
+
+.add-btn i {
+  font-size: 15px;
+}
+
+
+/* ================================
+   TABLET
+================================ */
+
+@media (max-width: 991px) {
+
+  .products-section {
+    padding: 65px 0;
+  }
+
+  .section-title {
+    font-size: 34px;
+  }
+
+  .product-image-box {
+    height: 250px;
+  }
+
+}
+
+
+/* ================================
+   MOBILE
+================================ */
+
+@media (max-width: 576px) {
+
+  .products-section {
+    padding: 50px 15px;
+  }
+
+  .products-heading {
+    margin-bottom: 35px;
+  }
+
+  .section-title {
+    font-size: 29px;
+  }
+
+  .section-description {
+    font-size: 14px;
+  }
+
+  .product-image-box {
+    height: 230px;
+  }
+
+  .product-info {
+    padding: 16px;
+  }
+
+  .product-info h4 {
+    font-size: 17px;
+  }
+
+  .product-description {
+    font-size: 12px;
+  }
+
+  .price {
+    font-size: 19px;
+  }
+
+  .heart-btn {
+    width: 36px;
+    height: 36px;
+  }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* search bar */
+
+.search-bar {
+  max-width: 400px;
+  margin: 0 auto 40px;
+}
+
+.search-icon {
+  left: 15px;
+  color: #a86b45;
+}
+
+.search-input {
+  width: 100%;
+  padding: 12px 15px 12px 40px;
+  border: 1px solid #eee6de;
+  border-radius: 30px;
+  outline: none;
+}
